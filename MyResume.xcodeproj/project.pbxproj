@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E0475A7E1C2EB3C900F969ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475A7D1C2EB3C900F969ED /* AppDelegate.swift */; };
-		E0475A801C2EB3C900F969ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475A7F1C2EB3C900F969ED /* ViewController.swift */; };
 		E0475A831C2EB3C900F969ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0475A811C2EB3C900F969ED /* Main.storyboard */; };
 		E0475A861C2EB3C900F969ED /* MyResume.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0475A841C2EB3C900F969ED /* MyResume.xcdatamodeld */; };
 		E0475A881C2EB3C900F969ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0475A871C2EB3C900F969ED /* Assets.xcassets */; };
 		E0475A8B1C2EB3C900F969ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0475A891C2EB3C900F969ED /* LaunchScreen.storyboard */; };
+		E0475A9C1C2EB60600F969ED /* MPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475A9B1C2EB60600F969ED /* MPBaseViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475A9E1C2EB68E00F969ED /* MPAboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475A9D1C2EB68E00F969ED /* MPAboutMeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475AA01C2EB6CC00F969ED /* MPProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475A9F1C2EB6CC00F969ED /* MPProjectsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475AA21C2EB6D600F969ED /* MPSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475AA11C2EB6D600F969ED /* MPSocialViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475AA51C2ECBF200F969ED /* MPSocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475AA41C2ECBF200F969ED /* MPSocialTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0475A7A1C2EB3C900F969ED /* MyResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0475A7D1C2EB3C900F969ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0475A7F1C2EB3C900F969ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0475A821C2EB3C900F969ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0475A851C2EB3C900F969ED /* MyResume.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyResume.xcdatamodel; sourceTree = "<group>"; };
 		E0475A871C2EB3C900F969ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0475A8A1C2EB3C900F969ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0475A8C1C2EB3C900F969ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0475A9B1C2EB60600F969ED /* MPBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPBaseViewController.swift; sourceTree = "<group>"; };
+		E0475A9D1C2EB68E00F969ED /* MPAboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPAboutMeViewController.swift; sourceTree = "<group>"; };
+		E0475A9F1C2EB6CC00F969ED /* MPProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPProjectsViewController.swift; sourceTree = "<group>"; };
+		E0475AA11C2EB6D600F969ED /* MPSocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSocialViewController.swift; sourceTree = "<group>"; };
+		E0475AA41C2ECBF200F969ED /* MPSocialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSocialTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,9 @@
 		E0475A7C1C2EB3C900F969ED /* MyResume */ = {
 			isa = PBXGroup;
 			children = (
+				E0475AA31C2ECBD300F969ED /* Views */,
+				E0475A921C2EB54900F969ED /* ViewControllers */,
 				E0475A7D1C2EB3C900F969ED /* AppDelegate.swift */,
-				E0475A7F1C2EB3C900F969ED /* ViewController.swift */,
 				E0475A811C2EB3C900F969ED /* Main.storyboard */,
 				E0475A871C2EB3C900F969ED /* Assets.xcassets */,
 				E0475A891C2EB3C900F969ED /* LaunchScreen.storyboard */,
@@ -65,6 +74,57 @@
 				E0475A841C2EB3C900F969ED /* MyResume.xcdatamodeld */,
 			);
 			path = MyResume;
+			sourceTree = "<group>";
+		};
+		E0475A921C2EB54900F969ED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0475A981C2EB5A300F969ED /* BaseViewController */,
+				E0475A931C2EB54900F969ED /* AboutViewController */,
+				E0475A941C2EB54900F969ED /* ProjectsViewController */,
+				E0475A951C2EB54900F969ED /* SoicalViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E0475A931C2EB54900F969ED /* AboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0475A9D1C2EB68E00F969ED /* MPAboutMeViewController.swift */,
+			);
+			path = AboutViewController;
+			sourceTree = "<group>";
+		};
+		E0475A941C2EB54900F969ED /* ProjectsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0475A9F1C2EB6CC00F969ED /* MPProjectsViewController.swift */,
+			);
+			path = ProjectsViewController;
+			sourceTree = "<group>";
+		};
+		E0475A951C2EB54900F969ED /* SoicalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0475AA11C2EB6D600F969ED /* MPSocialViewController.swift */,
+			);
+			path = SoicalViewController;
+			sourceTree = "<group>";
+		};
+		E0475A981C2EB5A300F969ED /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0475A9B1C2EB60600F969ED /* MPBaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		E0475AA31C2ECBD300F969ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0475AA41C2ECBF200F969ED /* MPSocialTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +153,7 @@
 		E0475A721C2EB3C900F969ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MP;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Pantech;
 				TargetAttributes = {
@@ -137,9 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0475A801C2EB3C900F969ED /* ViewController.swift in Sources */,
 				E0475A861C2EB3C900F969ED /* MyResume.xcdatamodeld in Sources */,
+				E0475A9E1C2EB68E00F969ED /* MPAboutMeViewController.swift in Sources */,
+				E0475AA21C2EB6D600F969ED /* MPSocialViewController.swift in Sources */,
+				E0475AA51C2ECBF200F969ED /* MPSocialTableViewCell.swift in Sources */,
+				E0475A9C1C2EB60600F969ED /* MPBaseViewController.swift in Sources */,
 				E0475A7E1C2EB3C900F969ED /* AppDelegate.swift in Sources */,
+				E0475AA01C2EB6CC00F969ED /* MPProjectsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyResume/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pantech.MyResume;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyResume/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pantech.MyResume;
 				PRODUCT_NAME = "$(TARGET_NAME)";
