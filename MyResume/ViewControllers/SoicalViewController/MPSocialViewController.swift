@@ -17,13 +17,14 @@ class MPSocialViewController: MPBaseViewController, UITableViewDelegate , UITabl
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Social Links"
+        self.tblViewForSocial.backgroundColor = UIColor.clearColor();
         
         arraySocial = [
-            ["icon":"GitHub", "title":"GitHub (/milanpanchal)", "socialLink":"https://github.com/milanpanchal/"],
-            ["icon":"StackOverflow", "title":"Stack Overflow", "socialLink":"https://stackoverflow.com/users/1748956/milanpanchal"],
-            ["icon":"LinkedIn", "title":"LinkedIn (/in/milanpanchal)", "socialLink":"https://in.linkedin.com/in/milanpanchal/"],
-            ["icon":"Twitter", "title":"Twitter (@milan_panchal24)", "socialLink":"https://twitter.com/milan_panchal24"],
-            ["icon":"Blog", "title":"Blog", "socialLink":"https://mypoemswithsam.wordpress.com/"],
+            ["icon":"GitHub", "title":"GitHub (/milanpanchal)", "url":"https://github.com/milanpanchal/"],
+            ["icon":"StackOverflow", "title":"Stack Overflow", "url":"https://stackoverflow.com/users/1748956/milanpanchal"],
+            ["icon":"LinkedIn", "title":"LinkedIn (/in/milanpanchal)", "url":"https://in.linkedin.com/in/milanpanchal/"],
+            ["icon":"Twitter", "title":"Twitter (@milan_panchal24)", "url":"https://twitter.com/milan_panchal24"],
+            ["icon":"Blog", "title":"Blog", "url":"https://mypoemswithsam.wordpress.com/"],
         ]
         
         
@@ -61,7 +62,7 @@ class MPSocialViewController: MPBaseViewController, UITableViewDelegate , UITabl
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let urlAsString = arraySocial[indexPath.row]["socialLink"]!
+        let urlAsString = arraySocial[indexPath.row]["url"]!
         let url = NSURL(string: urlAsString)
 
         if (url != nil) {

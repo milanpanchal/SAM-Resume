@@ -17,6 +17,12 @@
 		E0475AA01C2EB6CC00F969ED /* MPProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475A9F1C2EB6CC00F969ED /* MPProjectsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E0475AA21C2EB6D600F969ED /* MPSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475AA11C2EB6D600F969ED /* MPSocialViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E0475AA51C2ECBF200F969ED /* MPSocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475AA41C2ECBF200F969ED /* MPSocialTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475AA71C2F093800F969ED /* MPAboutMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475AA61C2F093700F969ED /* MPAboutMeTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475AAC1C2F10D300F969ED /* MPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475AAB1C2F10D300F969ED /* MPConstants.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475AAE1C2F9BE800F969ED /* MPProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475AAD1C2F9BE800F969ED /* MPProjectCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475AB31C3293A700F969ED /* MPSkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475AB21C3293A700F969ED /* MPSkillsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475AB51C32952300F969ED /* MPSkillsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0475AB41C32952300F969ED /* MPSkillsCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E0475AB71C32ACC700F969ED /* Projects.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0475AB61C32ACC700F969ED /* Projects.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		E0475A9F1C2EB6CC00F969ED /* MPProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPProjectsViewController.swift; sourceTree = "<group>"; };
 		E0475AA11C2EB6D600F969ED /* MPSocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSocialViewController.swift; sourceTree = "<group>"; };
 		E0475AA41C2ECBF200F969ED /* MPSocialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSocialTableViewCell.swift; sourceTree = "<group>"; };
+		E0475AA61C2F093700F969ED /* MPAboutMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPAboutMeTableViewCell.swift; sourceTree = "<group>"; };
+		E0475AAB1C2F10D300F969ED /* MPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MPConstants.swift; path = Utility/MPConstants.swift; sourceTree = "<group>"; };
+		E0475AAD1C2F9BE800F969ED /* MPProjectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPProjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0475AB21C3293A700F969ED /* MPSkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSkillsViewController.swift; sourceTree = "<group>"; };
+		E0475AB41C32952300F969ED /* MPSkillsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSkillsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0475AB61C32ACC700F969ED /* Projects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Projects.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,8 @@
 				E0475A891C2EB3C900F969ED /* LaunchScreen.storyboard */,
 				E0475A8C1C2EB3C900F969ED /* Info.plist */,
 				E0475A841C2EB3C900F969ED /* MyResume.xcdatamodeld */,
+				E0475AAB1C2F10D300F969ED /* MPConstants.swift */,
+				E0475AB61C32ACC700F969ED /* Projects.plist */,
 			);
 			path = MyResume;
 			sourceTree = "<group>";
@@ -79,6 +93,7 @@
 		E0475A921C2EB54900F969ED /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E0475AB11C3293A700F969ED /* SkillViewController */,
 				E0475A981C2EB5A300F969ED /* BaseViewController */,
 				E0475A931C2EB54900F969ED /* AboutViewController */,
 				E0475A941C2EB54900F969ED /* ProjectsViewController */,
@@ -123,8 +138,19 @@
 			isa = PBXGroup;
 			children = (
 				E0475AA41C2ECBF200F969ED /* MPSocialTableViewCell.swift */,
+				E0475AA61C2F093700F969ED /* MPAboutMeTableViewCell.swift */,
+				E0475AAD1C2F9BE800F969ED /* MPProjectCollectionViewCell.swift */,
+				E0475AB41C32952300F969ED /* MPSkillsCollectionViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E0475AB11C3293A700F969ED /* SkillViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0475AB21C3293A700F969ED /* MPSkillsViewController.swift */,
+			);
+			path = SkillViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +213,7 @@
 			files = (
 				E0475A8B1C2EB3C900F969ED /* LaunchScreen.storyboard in Resources */,
 				E0475A881C2EB3C900F969ED /* Assets.xcassets in Resources */,
+				E0475AB71C32ACC700F969ED /* Projects.plist in Resources */,
 				E0475A831C2EB3C900F969ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,13 +225,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0475AB31C3293A700F969ED /* MPSkillsViewController.swift in Sources */,
 				E0475A861C2EB3C900F969ED /* MyResume.xcdatamodeld in Sources */,
 				E0475A9E1C2EB68E00F969ED /* MPAboutMeViewController.swift in Sources */,
 				E0475AA21C2EB6D600F969ED /* MPSocialViewController.swift in Sources */,
 				E0475AA51C2ECBF200F969ED /* MPSocialTableViewCell.swift in Sources */,
+				E0475AA71C2F093800F969ED /* MPAboutMeTableViewCell.swift in Sources */,
+				E0475AB51C32952300F969ED /* MPSkillsCollectionViewCell.swift in Sources */,
 				E0475A9C1C2EB60600F969ED /* MPBaseViewController.swift in Sources */,
+				E0475AAC1C2F10D300F969ED /* MPConstants.swift in Sources */,
 				E0475A7E1C2EB3C900F969ED /* AppDelegate.swift in Sources */,
 				E0475AA01C2EB6CC00F969ED /* MPProjectsViewController.swift in Sources */,
+				E0475AAE1C2F9BE800F969ED /* MPProjectCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

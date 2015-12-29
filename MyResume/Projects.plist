@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>companyName</key>
+		<string>PocketApp Pvt. Ltd.</string>
+		<key>projects</key>
+		<array>
+			<dict>
+				<key>icon</key>
+				<string>SL</string>
+				<key>title</key>
+				<string>Sterling Lotteries</string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string>RAD</string>
+				<key>title</key>
+				<string>RAD Video</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/us/app/rad-video/id603543134?mt=8</string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string>Guardian</string>
+				<key>title</key>
+				<string>Guardian - Family Locator</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/gb/app/guardian-family-locator/id1038857349?mt=8</string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string>LLDC</string>
+				<key>title</key>
+				<string>LLDC</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/us/app/queen-elizabeth-olympic-park/id990591769?mt=8</string>
+			</dict>
+		</array>
+		<key>duration</key>
+		<string>Feb 2015 to till date</string>
+	</dict>
+	<dict>
+		<key>companyName</key>
+		<string>Ductile Labs Pvt. Ltd.</string>
+		<key>projects</key>
+		<array/>
+		<key>duration</key>
+		<string>July 2014 to Jan 2015</string>
+	</dict>
+	<dict>
+		<key>companyName</key>
+		<string>123Greetings.com (Intrasoft Tech.)</string>
+		<key>projects</key>
+		<array>
+			<dict>
+				<key>icon</key>
+				<string>Birthday Cards</string>
+				<key>title</key>
+				<string>Birthday Cards</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/us/app/birthday-calendar-reminder/id848925011?mt=8</string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string>123Greetings</string>
+				<key>title</key>
+				<string>123Greetings</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/us/app/ecards-birthday-love-more/id718873921?mt=8</string>
+			</dict>
+		</array>
+		<key>duration</key>
+		<string>Dec 2013 to July 2014</string>
+	</dict>
+	<dict>
+		<key>companyName</key>
+		<string>VivaConnect Pvt. Ltd.</string>
+		<key>projects</key>
+		<array>
+			<dict>
+				<key>icon</key>
+				<string>MTV</string>
+				<key>title</key>
+				<string>MTV Song of the day</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/in/app/mtv-song-of-the-day/id733773776?ls=1&amp;mt=8#!</string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string>TestR</string>
+				<key>title</key>
+				<string>TestR</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/us/app/testr-student/id646333220?mt=8</string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string>ShahiDawat</string>
+				<key>title</key>
+				<string>Shahi Dawat</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/us/app/shahi-dawat/id594130401?mt=8</string>
+			</dict>
+		</array>
+		<key>duration</key>
+		<string>Nov 2011 to Dec 2013</string>
+	</dict>
+</array>
+</plist>

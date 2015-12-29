@@ -13,8 +13,10 @@ class MPSocialTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.backgroundColor = UIColor.clearColor()
+
         self.textLabel?.textColor = UIColor(red: 36/255.0, green: 36/255.0, blue: 36/255.0, alpha: 1.0)
-        self.textLabel?.font = UIFont(name: "Helvetica-Bold", size: 16.0)
+        self.textLabel?.font = UIFont(name: MPConstants.FONT_HELVETICA_BOLD, size: 16.0)
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
@@ -23,9 +25,9 @@ class MPSocialTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    func setupSocialCellWithParams(params:NSDictionary) {
+    func setupSocialCellWithParams(params:Dictionary<String, String>) {
     
-        self.textLabel?.text = params["title"] as? String
-        self.imageView?.image = UIImage(named: (params["icon"] as? String)!)
+        self.textLabel?.text = params["title"]
+        self.imageView?.image = UIImage(named: (params["icon"])!)
     }
 }
